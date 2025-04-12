@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# Keras/TensorFlow
+*.h5  # Exclude uncompressed model files
+*.keras
+*.pb
+*.tflite
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+data/  # Exclude local test data folders
+
+# Git LFS temp files
+*.lfsfail
+
+# Windows
+*.bak
+*.tmp
+*.temp
